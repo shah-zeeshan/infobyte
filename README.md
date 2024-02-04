@@ -1,1 +1,4 @@
-# infobyte
+This repository contains 3 tasks in Python Programming Domain under Oasis Infobyte Internship Tasks:
+1. BMI Calculator - It is a command-line BMI calculator in Python. It prompts users for their weight (in kilograms) and height (in meters). Calculates the BMI and classifies it into categories (e.g., underweight, normal, overweight) based on predefined ranges. Displays the BMI result and category to the user.
+2. Random Password Generator - It is a command-line password generator in Python that generates random passwords based on user-defined criteria, such as length and character types (letters, numbers, symbols). Allows users to specify password length and character set preferences.
+3. Basic Weather App - It is a command-line weather app in Python that fetches and displays current weather data for a user-specified location (e.g., city or ZIP code) using a weather API. Shows basic information such as temperature, humidity, and weather conditions.
