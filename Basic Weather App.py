@@ -1,10 +1,10 @@
 import requests
 
 
-print("\n****************WELCOME TO WEATHER APP****************\n")
+print("\n****************WEATHER APP****************\n")
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 API_KEY = "3388164df1639df43faa856864458835"
-CITY = input("Entry the name of location  ")
+CITY = input("Enter the name of location  ")
 
 def convert_to_celcius(kelvin):
     celcius = kelvin-273
@@ -24,9 +24,9 @@ max_temp_celcius = convert_to_celcius(max_temp)
 min_temp_celcius = convert_to_celcius(min_temp)
 
 print(f"Data for {CITY} is \n")
-print(f"TEMPERATURE: {temp_celcius} Celcius  ")
-print(f"MAX TEMP: {max_temp_celcius} Celcius ")
-print(f"MIN TEMP: {min_temp_celcius} Celcius ")
+print(f"TEMPERATURE is: {temp_celcius} Celcius  ")
+print(f"MAX TEMP was: {max_temp_celcius} Celcius ")
+print(f"MIN TEMP was: {min_temp_celcius} Celcius ")
 print(f"FEELS LIKE: {feels_like_celcius} ")
 print(f"PRESSURE: {pressure} mbar ")
 print(f"HUMIDITY: {humidity}% ")
